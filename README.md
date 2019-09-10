@@ -42,8 +42,10 @@ from this ungodly mess, with all-caps fractional location names, wind
 speeds in knots, and the most important number at the very end a large 
 set of numbers:
 
-  W PALM BEACH 34 X X( X) 1( 1) 5( 6) 62(68) 22(90) 5(95)
-  W PALM BEACH 50 X X( X) X( X) X( X) 32(32) 33(65) 9(74)
-  W PALM BEACH 64 X X( X) X( X) X( X) 13(13) 30(43) 10(53)
+> W PALM BEACH 34 X X( X) 1( 1) 5( 6) 62(68) 22(90) 5(95)
+
+> W PALM BEACH 50 X X( X) X( X) X( X) 32(32) 33(65) 9(74)
+
+> W PALM BEACH 64 X X( X) X( X) X( X) 13(13) 30(43) 10(53)
 
 **animatedorian.sh** -- Another simple example that stacks GIFs saved by *getspaghetti* into an animated GIF. You'd need the common tool [ImageMagick](https://imagemagick.org/) for the actual processing. See the code for examples on how to build your own.
