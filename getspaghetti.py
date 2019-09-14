@@ -5,8 +5,8 @@ import subprocess
 import datetime
 import os
 
-hosturl = "https://my.sfwmd.gov/sfwmd/common/images/weather/plots.html"
-urlpre = "https://my.sfwmd.gov/sfwmd/common/images/weather/"
+hosturl = "https://apps.sfwmd.gov/sfwmd/common/images/weather/plots.html"
+urlpre = "https://apps.sfwmd.gov/sfwmd/common/images/weather/"
 datadir = "data/"
 
 os.makedirs(datadir, exist_ok=True)
