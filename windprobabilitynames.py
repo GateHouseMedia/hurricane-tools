@@ -127,6 +127,8 @@ namedict = {
 "BURGEO NFLD": "Burgeo, Newfoundland",
 "EDDY POINT NS": "Eddy Point, Nova Scotia",
 "CAPE RACE NFLD": "Cape Race, Newfoundland",
-"HIBERNIA OILFD": "Hibernia oilfield, 200 miles east of Canada"
+"HIBERNIA OILFD": "Hibernia oilfield, 200 miles east of Canada",
+"GFMX 280N 910W": "badstuff",
+"BURAS LA": "Buras, La."
 
 }
