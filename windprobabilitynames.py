@@ -129,6 +129,7 @@ namedict = {
 "CAPE RACE NFLD": "Cape Race, Newfoundland",
 "HIBERNIA OILFD": "Hibernia oilfield, 200 miles east of Canada",
 "GFMX 280N 910W": "badstuff",
+"BERMUDA": "Bermuda",
 "BURAS LA": "Buras, La."
 
 }
