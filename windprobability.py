@@ -21,6 +21,7 @@ separator = "\r\n"
 tab = "    "
 divider = "LOCATION       KT"
 ender = "$$"
+mysplitter = "----" + separator
 
 namedict = windprobabilitynames.namedict
 
@@ -29,18 +30,18 @@ html = r.content
 holder = pq(html)("pre").html().split("\n")
 
 mytime = datetime.datetime.now().strftime("%I:%M %p on %A, %b %d")
-output = f"File checked at {mytime} at {hosturl}{separator}"
+output = f"File checked at {mytime} Eastern at {hosturl}{separator}"
 simpletimestamp = None
 for row in holder:
     if " UTC " in row:
         if "0900 UTC" in row or "1000 UTC" in row:
-            simpletimestamp = f"5 a.m. windspeed forecast{separator}"
+            simpletimestamp = f"5 a.m. Eastern windspeed forecast{separator}"
         if "1500 UTC" in row or "1600 UTC" in row:
-            simpletimestamp = f"11 a.m. windspeed forecast{separator}"
+            simpletimestamp = f"11 a.m. Eastern windspeed forecast{separator}"
         if "2100 UTC" in row or "2200 UTC" in row:
-            simpletimestamp = f"5 p.m. windspeed forecast{separator}"
+            simpletimestamp = f"5 p.m. Eastern windspeed forecast{separator}"
         if "0300 UTC" in row or "0400 UTC" in row:
-            simpletimestamp = f"11 p.m. windspeed forecast{separator}"
+            simpletimestamp = f"11 p.m. Eastern windspeed forecast{separator}"
         else:
             timestamp = f"Forecast from {row.strip()}{separator}"
 if not simpletimestamp:   # If we were able to unable to translate UTC
@@ -55,6 +56,7 @@ else:
 output += "The National Hurricane Center is estimating the likelihood of powerful windspeeds at a number of locations. "
 output += "Tropical storm speeds begin around 39 mph. 57 mph is an average tropical storm. 74 mph is a Category 1 hurricane."
 output += separator
+output += mysplitter
 
 
 def sconvert(s):
