@@ -9,9 +9,12 @@ import datetime
 # Configure these. hosturl is direct to the NHC wind probability page for
 # your storm. targetfilename is where you want the output to go.
 
-hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT5+shtml/281506.shtml"
-# targetfilename = "/var/www/html/misc/dorian/windprobability.txt"
-targetfilename = "windprobability.txt"
+# hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT5+shtml/281506.shtml"
+#hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT1+shtml/171457.shtml"
+hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT3+shtml/030844.shtml"
+#targetfilename = "/var/www/html/misc/201910storm/windprobability.txt"
+targetfilename = "/var/www/html/misc/20200603-cristobal/windprobability.txt"
+# targetfilename = "windprobability.txt"
 
 # You shouldn't need to mess with these:
 separator = "\r\n"
