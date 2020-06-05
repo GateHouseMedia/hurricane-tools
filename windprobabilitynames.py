@@ -158,7 +158,16 @@ namedict = {
 "GALVESTON TX": "Galveston, Texas",
 "PORT ARTHUR TX": "Port Arthur, Texas",
 "KOUNTZE TX": "Kountze, Texas",
-"GFMX 280N 950W": "badstuff"
+"GFMX 280N 950W": "badstuff",
+"AUSTIN TX": "Austin, Texas",
+"CORPUS CHRISTI": "Corpus Christi, Texas",
+"BELIZE CITY": "Belize City, Belize",
+"GFMX 250N 960W": "badstuff",
+"COZUMEL MX": "Cozumel, Mexico",
+"ROCKPORT TX": "Rockport, Texas",
+"BIRMINGHAM AL": "Birmingham, Ala.",
+"CP SAN ANTONIO": "badstuff" # This doesn't look like Texas
+
 
 
 }
