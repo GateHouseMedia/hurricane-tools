@@ -166,7 +166,18 @@ namedict = {
 "COZUMEL MX": "Cozumel, Mexico",
 "ROCKPORT TX": "Rockport, Texas",
 "BIRMINGHAM AL": "Birmingham, Ala.",
-"CP SAN ANTONIO": "badstuff" # This doesn't look like Texas
+"CP SAN ANTONIO": "badstuff", # This doesn't look like Texas
+"PONCE PR": "Ponce, Puerto Rico",
+"SANTO DOMINGO": "Santo Domingo, Dominican Republic",
+"SABA": "Saba, Leeward Islands",
+"ST EUSTATIUS": "St. Eustatius, Leeward Islands",
+"GUANTANAMO BAY": "Guantanamo Bay, Cuba",
+"AGUADILLA PR": "Aguadilla, Puerto Rico",
+"ST KITTS-NEVIS": "St. Kitts and Nevis, Leeward Islands",
+"PORT-AU-PRINCE": "Port-Au-Prince, Haiti",
+"SAINT MAARTEN": "Saint Maarten",
+"CAPE BEATA": "Cape Beata, Dominican Republic",
+"CAMAGUEY": "Camaguey, Cuba"
 
 
 
