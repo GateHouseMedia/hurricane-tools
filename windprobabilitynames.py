@@ -177,7 +177,10 @@ namedict = {
 "PORT-AU-PRINCE": "Port-Au-Prince, Haiti",
 "SAINT MAARTEN": "Saint Maarten",
 "CAPE BEATA": "Cape Beata, Dominican Republic",
-"CAMAGUEY": "Camaguey, Cuba"
+"CAMAGUEY": "Camaguey, Cuba",
+"ANTIGUA": "Antigua",
+"BARBUDA": "Barbuda",
+"MONTEGO BAY": "Montego Bay, Jamaica"
 
 
 
