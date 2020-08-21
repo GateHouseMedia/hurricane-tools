@@ -180,8 +180,8 @@ namedict = {
 "CAMAGUEY": "Camaguey, Cuba",
 "ANTIGUA": "Antigua",
 "BARBUDA": "Barbuda",
-"MONTEGO BAY": "Montego Bay, Jamaica"
-
-
+"MONTEGO BAY": "Montego Bay, Jamaica",
+"KINGSTON": "Kingston, Jamaica",
+"LES CAYES": "Les Cayes, Haiti"
 
 }
