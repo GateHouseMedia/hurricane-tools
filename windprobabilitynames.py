@@ -182,6 +182,7 @@ namedict = {
 "BARBUDA": "Barbuda",
 "MONTEGO BAY": "Montego Bay, Jamaica",
 "KINGSTON": "Kingston, Jamaica",
-"LES CAYES": "Les Cayes, Haiti"
+"LES CAYES": "Les Cayes, Haiti",
+"SAN ANTONIO TX": "San Antonio, Texas"
 
 }
