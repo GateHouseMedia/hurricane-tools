@@ -187,6 +187,11 @@ namedict = {
 "GRAND CAYMAN": "Grand Cayman Island",
 "BROWNSVILLE TX": "Brownsville, Texas",
 "HARLINGEN TX": "Harlingen, Texas",
+"PUERTO BARRIOS": "Puerto Barrios, Guatemala",
+"PUERTO CABEZAS": "Puerto Cabezas, Nicaragua",
+"BLUEFIELDS": "Bluefields, Nicaragua",
+"SAN ANDRES": "San Andrés",
+"LIMON": "Limón, Costa Rica",
 "GUANAJA": "Guanaja, Honduras"
 	
 

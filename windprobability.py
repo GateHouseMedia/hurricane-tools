@@ -11,9 +11,20 @@ import datetime
 
 # hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT5+shtml/281506.shtml"
 #hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT1+shtml/171457.shtml"
-hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT3+shtml/030844.shtml"
+# hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT3+shtml/030844.shtml"
+# hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT3+shtml/200900.shtml"
+#hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT3+shtml/212050.shtml?"
+# hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT4+shtml/141451.shtml?"
+#hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT1+shtml/050849.shtml?"
+#hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT1+shtml/051452.shtml?"
+#hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT3+shtml/260852.shtml?" 
+hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT4+shtml/022050.shtml?"
 #targetfilename = "/var/www/html/misc/201910storm/windprobability.txt"
-targetfilename = "/var/www/html/misc/20200603-cristobal/windprobability.txt"
+#targetfilename = "/var/www/html/misc/20200729-isaias/windprobability.txt"
+#targetfilename = "/var/www/html/misc/20200914-sally/windprobability.txt"
+#targetfilename = "/var/www/html/misc/20201005-delta/windprobability.txt"
+#targetfilename = "/var/www/html/misc/20201026-zeta/windprobability.txt"
+targetfilename = "/var/www/html/misc/20201102-eta/windprobability.txt"
 # targetfilename = "windprobability.txt"
 
 # You shouldn't need to mess with these:
