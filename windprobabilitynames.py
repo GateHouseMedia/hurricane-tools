@@ -140,7 +140,7 @@ namedict = {
 "SHREVEPORT LA": "Shreveport, La.",
 "ALEXANDRIA LA": "Alexandria, La.",
 "GFMX 280N 930W": "badstuff",
-"MERIDA MX": "Merida, Mexico",
+"MERIDA MX": "Mérida, Mexico",
 "CAMERON LA": "Cameron, La.",
 "NEW ORLEANS LA": "New Orleans, La.",
 "MATAGORDA TX": "Matagorda, Texas",
@@ -175,7 +175,7 @@ namedict = {
 "AGUADILLA PR": "Aguadilla, Puerto Rico",
 "ST KITTS-NEVIS": "St. Kitts and Nevis, Leeward Islands",
 "PORT-AU-PRINCE": "Port-Au-Prince, Haiti",
-"SAINT MAARTEN": "Saint Maarten",
+"SAINT MAARTEN": "Saint Maarten",    # A mix of Saint Martin and Sint Maartin?
 "CAPE BEATA": "Cape Beata, Dominican Republic",
 "CAMAGUEY": "Camaguey, Cuba",
 "ANTIGUA": "Antigua",

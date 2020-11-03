@@ -28,7 +28,7 @@ names the National Weather Service kicks out in its wind probability
 forecasts. Setting the prettified name to "badstuff" will drop the entry 
 entirely. When new locations are added to the forecasts, you'll want to 
 add them to this file. Pull requests gratefully accepted, as this is 
-missing all entries for Gulf of Mexico and Pacific storms. 
+missing many entries for Gulf of Mexico and all of the Pacific storms. 
 
 Note: Some of these names contain accent marks (and others are missing them).
 Some web servers may have a problem with this; in Apache, edit /etc/apache2/apache2.conf and add the line
