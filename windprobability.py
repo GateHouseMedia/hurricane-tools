@@ -112,8 +112,10 @@ for row in rows:
                 running += f"; {percentage}% chance of {sconvert(speed)}+ mph"   # append to existing row
 output += running + separator + separator    # Add the last line
 
-with open(targetfilename, "w", newline="") as f:
+with open(targetfilename, "w", encoding='utf-8', newline="") as f:
     f.write(output)
 
 if len(unknowncities) > 0:
     print("\r\n".join(set(unknowncities)))
+
+print(namedict['LIMON'])

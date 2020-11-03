@@ -30,6 +30,12 @@ entirely. When new locations are added to the forecasts, you'll want to
 add them to this file. Pull requests gratefully accepted, as this is 
 missing all entries for Gulf of Mexico and Pacific storms. 
 
+Note: Some of these names contain accent marks (and others are missing them).
+Some web servers may have a problem with this; in Apache, edit /etc/apache2/apache2.conf and add the line
+
+> AddDefaultCharset utf-8
+
+
 **windprobabilities.py** is a stupidly simple tool to scrape National 
 Weather Service wind probability forecasts and turn them into something 
 vaguely English. Configure at the top of the file to set your current 
