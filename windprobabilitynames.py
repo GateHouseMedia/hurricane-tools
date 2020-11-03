@@ -192,7 +192,41 @@ namedict = {
 "BLUEFIELDS": "Bluefields, Nicaragua",
 "SAN ANDRES": "San Andrés",
 "LIMON": "Limón, Costa Rica",
-"GUANAJA": "Guanaja, Honduras"
+"GUANAJA": "Guanaja, Honduras",
+"BARBADOS": "Barbados",
+"BELIZE": "Belize",
+"CURACAO": "Curaçao",
+"DOMINICA": "Dominica",
+"GONAIVES": "Gonaïves, Haiti",
+"GRENADA": "Grenada",
+"GUADELOUPE": "Guadeloupe",
+"JUANGRIEGO": "Juan Griego, Venezuela",
+"LA PESCA MX": "La Pesca, Mexico",
+"MARCO ISLAND": "Marco Island, Fla.",
+"MARTINIQUE": "Martinique",
+"MAYPORT NS": "Naval Station Mayport, Fla.",
+"NEW YORK CITY": "New York City, N.Y.",
+"PONTA DELGADA": "Ponta Delgada, Azores".
+"PORT OF SPAIN": "Port of Spain, Trinidad and Tobago", 
+"PT GALLINAS": "Punta Gallinas, Colombia",
+"SAINT LUCIA": "Saint Lucia",
+"SAN JUAN": "San Juan, Puerto Rico",
+"SANTA CRUZ AZO": "Santa Cruz das Flores, Azores",
+"TAMPICO MX": "Tampico, Mexico",
+"TRINIDADTOBAGO": "Trinidad and Tobago",
+"TUXPAN MX": "Tuxpan, Mexico",
+"VERACRUZ MX": "Veracruz, Mexico",
+
+
+
+
+
+
+
+
+
 	
+"ZZZZZPLACEHOLDER": "badstuff"
+
 
 }
