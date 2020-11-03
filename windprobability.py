@@ -118,4 +118,3 @@ with open(targetfilename, "w", encoding='utf-8', newline="") as f:
 if len(unknowncities) > 0:
     print("\r\n".join(set(unknowncities)))
 
-print(namedict['LIMON'])
