@@ -22,5 +22,5 @@ cp data/storm29_202011*00.gif staging-eta
 rm staging-eta/storm29_20201101*
 rm staging-eta/storm29_20201102*
 rm staging-eta/storm29_20201103_0*
-/usr/bin/convert -delay 15 -loop 0 staging-eta/*.gif /var/www/html/misc/20201102-eta/eta-animated.gif
+/usr/bin/convert -delay 40 -loop 0 staging-eta/*.gif /var/www/html/misc/20201102-eta/eta-animated.gif
 
