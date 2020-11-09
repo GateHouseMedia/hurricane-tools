@@ -19,8 +19,12 @@ cd ~stucka/hurricane-tools
 #/usr/bin/convert -loop 0 data/storm98_201*00.gif data/storm19_201*00.gif /var/www/html/misc/20200914-sally/sally-animated.gif
 # /usr/bin/convert -delay 15 -loop 0 data/storm29_202011*00.gif /var/www/html/misc/20201102-eta/eta-animated.gif
 cp data/storm29_202011*00.gif staging-eta
-rm staging-eta/storm29_20201101*
-rm staging-eta/storm29_20201102*
-rm staging-eta/storm29_20201103_0*
+cd staging-eta
+rm storm29_20201101*
+rm storm29_20201102*
+rm storm29_20201103_0*
+rm *_01??.gif *_03??.gif  *_05??.gif *_07??.gif  *_09??.gif *_11??.gif
+rm  *_13??.gif *_15??.gif  *_17??.gif *_19??.gif  *_21??.gif *_23??.gif
+cd ..
 /usr/bin/convert -delay 40 -loop 0 staging-eta/*.gif /var/www/html/misc/20201102-eta/eta-animated.gif
 
