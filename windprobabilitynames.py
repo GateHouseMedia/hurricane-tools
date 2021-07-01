@@ -215,6 +215,8 @@ namedict = {
 "TAMPICO MX": "Tampico, Mexico",
 "TRINIDADTOBAGO": "Trinidad and Tobago",
 "TUXPAN MX": "Tuxpan, Mexico",
+"AVES": "Isla de Aves, Venezuela",
+"SAINT VINCENT": "St. Vincent",
 "VERACRUZ MX": "Veracruz, Mexico",
 
 
