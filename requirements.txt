@@ -1,3 +1,4 @@
 # animate requires ImageMagick
 pyquery
+pytz
 requests

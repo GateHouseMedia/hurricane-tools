@@ -1,5 +1,6 @@
 import requests
 from pyquery import PyQuery as pq
+import pytz
 
 import windprobabilitynames   # Local file
 
@@ -36,7 +37,7 @@ hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT2+shtml/070900.shtml?"
 targetfilename = "/var/www/html/misc/20221107-nicole/windprobability.txt"
 
 
-# targetfilename = "windprobability.txt"
+# targetfilename = "windprobability.txt"                # If you want to save the file locally
 
 # You shouldn't need to mess with these:
 separator = "\r\n"
@@ -54,18 +55,25 @@ holder = pq(html)("pre").html().split("\n")
 mytime = datetime.datetime.now().strftime("%I:%M %p on %A, %b %d")
 output = f"File checked at {mytime} Eastern at {hosturl}{separator}"
 simpletimestamp = None
+
+
+
 for row in holder:
     if " UTC " in row:
-        if "0900 UTC" in row or "1000 UTC" in row:
-            simpletimestamp = f"5 a.m. Eastern windspeed forecast{separator}"
-        if "1500 UTC" in row or "1600 UTC" in row:
-            simpletimestamp = f"11 a.m. Eastern windspeed forecast{separator}"
-        if "2100 UTC" in row or "2200 UTC" in row:
-            simpletimestamp = f"5 p.m. Eastern windspeed forecast{separator}"
-        if "0300 UTC" in row or "0400 UTC" in row:
-            simpletimestamp = f"11 p.m. Eastern windspeed forecast{separator}"
-        else:
+        try:
+            row = row.strip()       # Lose whitespace
+            utc = pytz.utc
+            eastern = pytz.timezone('US/Eastern')
+            sourcedate = utc.localize(datetime.datetime.strptime(row, "%H%M UTC %a %b %d %Y")).astimezone(eastern)
+            simpletimestamp = sourcedate.strftime("%I %p").replace("AM", "a.m.").replace("PM", "p.m.")
+            if simpletimestamp[0] == "0":
+                simpletimestamp = simpletimestamp[1:]              # Strip off leading zeroes, as from 0500
+            simpletimestamp += f" Eastern windspeed forecast{separator}"
+        except:
+            simpletimestamp = None
+        if not simpletimestamp:
             timestamp = f"Forecast from {row.strip()}{separator}"
+
 if not simpletimestamp:   # If we were able to unable to translate UTC
     for row in holder:
         if " Z TIME" in row:
