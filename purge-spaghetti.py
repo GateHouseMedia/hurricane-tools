@@ -15,7 +15,7 @@ filestopurge = []
 for filename in filenames:
     if os.path.isfile(filename):     # Exclude any directories
         fileepochtime = os.path.getmtime(filename)
-        filedatetime = datetime.fromtimestamp(fileepochtime)
+        filedatetime = datetime.datetime.fromtimestamp(fileepochtime)
         if filedatetime < earliestdate:
             filestopurge.append(filename)
 print(f"{len(filestopurge):,} files to be purged")
