@@ -24,7 +24,9 @@ import datetime
 # hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT3+shtml/200858.shtml?"
 # hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT4+shtml/261445.shtml?"
 # hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT4+shtml/230855.shtml?"
-hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT2+shtml/070900.shtml?"
+# hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT2+shtml/070900.shtml?"
+hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSEP4+shtml/190847.shtml?" # Pacific Hilary
+
 #targetfilename = "/var/www/html/misc/201910storm/windprobability.txt"
 #targetfilename = "/var/www/html/misc/20200729-isaias/windprobability.txt"
 #targetfilename = "/var/www/html/misc/20200914-sally/windprobability.txt"
@@ -34,7 +36,7 @@ hosturl = "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT2+shtml/070900.shtml?"
 # targetfilename = "/var/www/html/misc/20210820-henri/windprobability.txt"
 #targetfilename = "/var/www/html/misc/20210826-ida/windprobability.txt"
 #targetfilename = "/var/www/html/misc/20220923-al092022/windprobability.txt"
-targetfilename = "/var/www/html/misc/20221107-nicole/windprobability.txt"
+targetfilename = "test/20230819-hilary-windprobability.txt"
 
 
 # targetfilename = "windprobability.txt"                # If you want to save the file locally
