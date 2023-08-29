@@ -1,4 +1,6 @@
 # animate requires ImageMagick
+inflect
 pyquery
 pytz
 requests
+tqdm
