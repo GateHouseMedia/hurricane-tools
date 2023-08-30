@@ -1,6 +1,6 @@
 # animate requires ImageMagick
 inflect
-paperill
+papermill
 pyquery
 pytz
 requests
