@@ -382,7 +382,7 @@ namedict = {
 "SAINT JOHN": "Saint John, U.S. Virgin Islands",
 "MACON GA": "Macon, Ga.",
 "DOTHAN AL": "Dothan, Ala.",
-"ALBANY GA": "Albany, Ga."
+"ALBANY GA": "Albany, Ga.",
 "ZZZZZPLACEHOLDER": "badstuff"
 
 
