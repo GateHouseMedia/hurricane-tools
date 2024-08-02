@@ -379,7 +379,10 @@ namedict = {
 "TAPACHULA": "Tapachula, Chiapas, Mexico",
 "TEGUCIGALPA": "Tegucigalpa, Honduras",
 "ZIHUATANEJO": "Zihuatanejo, Guerrero, Mexico",
-"SAINT JOHN": "Saint John, U.S. Virgin Islands",	
+"SAINT JOHN": "Saint John, U.S. Virgin Islands",
+"MACON GA": "Macon, Ga.",
+"DOTHAN AL": "Dothan, Ala.",
+"ALBANY GA": "Albany, Ga."
 "ZZZZZPLACEHOLDER": "badstuff"
 
 
