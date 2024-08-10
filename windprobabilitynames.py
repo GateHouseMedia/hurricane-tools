@@ -383,7 +383,28 @@ namedict = {
 "MACON GA": "Macon, Ga.",
 "DOTHAN AL": "Dothan, Ala.",
 "ALBANY GA": "Albany, Ga.",
-"ZZZZZPLACEHOLDER": "badstuff"
+"ZZZZZPLACEHOLDER": "badstuff",
+"BUOY 50002": None,
+"BUOY 50004": None,
+"GFMX 287N 884W": None,
+"LA PESCO MX": "La Pesca, Tamaulipas, Mexico",
+"HARTFORD CO": "Hartford, Conn.",
+"PRAIA CVI": "Praia, Cape Verde",
+"PUERTO CATUCO": "Puerto Catuco, El Salvador",
+"SALINA CRUZ": "Salina Cruz, Oaxaca, Mexico",
+"SANTA MARIA CV": "Santa Maria, Cape Verde",
+
+# Not sure what countries these are; similar names appear in more than one.
+# Some are likely spelled incorrectly.
+# "CABO BLANCO"
+# COLON
+# CULICAN
+# MANZANILLO
+# P MALDONADO
+# SAINT JOHN
+# SAN BLAS
+# SOUTH POINT
+# STENNIS SC . .. Stennis Space Center, Mississippi?
 
 
 }
