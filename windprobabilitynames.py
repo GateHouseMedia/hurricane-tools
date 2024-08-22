@@ -393,7 +393,7 @@ namedict = {
 "PUERTO CATUCO": "Puerto Catuco, El Salvador",
 "SALINA CRUZ": "Salina Cruz, Oaxaca, Mexico",
 "SANTA MARIA CV": "Santa Maria, Cape Verde",
-"SOUTH POINT": "South Point, Kalae, Hawaii",
+"SOUTH POINT": "South Point, Ka Lae, Hawaii",
 
 # Not sure what countries these are; similar names appear in more than one.
 # Some are likely spelled incorrectly.
