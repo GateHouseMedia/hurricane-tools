@@ -367,7 +367,7 @@ namedict = {
 "MIDWAY": "Midway Island",
 "NECKER": "Necker Island",
 "NIHOA": "Nihoa",
-"NIIHAU": "Niʻihau",
+"NIIHAU": "Niʻiha, Hawaii",
 "P ANGEL": "Puerto Ángel, Oaxaca, Mexico",
 "P SAN JOSE": "Puerto San José, Guatemala",
 "P VALLARTA": "Puerto Vallarta, Jalisco, Mexico",
