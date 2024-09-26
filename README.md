@@ -54,4 +54,11 @@ set of numbers:
 
 > W PALM BEACH 64 X X( X) X( X) X( X) 13(13) 30(43) 10(53)
 
+
+**windnames-for-all.ipynb** is a derivative of windprobabilities, which checks for active storms 
+and automatically generates an HTML version of the wind probabilities file in something that's 
+somewhat more understandable than the official godawful mess. This is intended to be used as a 
+cron job, an automatically scheduled thing. It's been stable.
+
+
 **animatedorian.sh** -- Another simple example that stacks GIFs saved by *getspaghetti* into an animated GIF. You'd need the common tool [ImageMagick](https://imagemagick.org/) for the actual processing. See the code for examples on how to build your own.
