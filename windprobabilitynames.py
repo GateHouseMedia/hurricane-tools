@@ -396,11 +396,14 @@ namedict = {
 "SOUTH POINT": "South Point, Ka Lae, Hawaii",
 "L CARDENAS": "Ciudad Lázaro Cárdenas, Michoacán, Mexico",
 "MANZANILLO": "Manzanillo, Colima, Mexico",
+"P MALDONADO": "Punta Maldonado, Guerrero, Mexico",
+
+
 
 # Not sure what countries these are; similar names appear in more than one.
 # Some are likely spelled incorrectly.
 # "CABO BLANCO"
-# "P MALDONADO": 
+# 
 # COLON
 # CULICAN
 # P MALDONADO
