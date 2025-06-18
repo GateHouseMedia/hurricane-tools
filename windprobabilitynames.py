@@ -394,13 +394,15 @@ namedict = {
 "SALINA CRUZ": "Salina Cruz, Oaxaca, Mexico",
 "SANTA MARIA CV": "Santa Maria, Cape Verde",
 "SOUTH POINT": "South Point, Ka Lae, Hawaii",
+"L CARDENAS": "Ciudad Lázaro Cárdenas, Michoacán, Mexico",
+"MANZANILLO": "Manzanillo, Colima, Mexico",
 
 # Not sure what countries these are; similar names appear in more than one.
 # Some are likely spelled incorrectly.
 # "CABO BLANCO"
+# "P MALDONADO": 
 # COLON
 # CULICAN
-# MANZANILLO
 # P MALDONADO
 # SAINT JOHN
 # SAN BLAS
